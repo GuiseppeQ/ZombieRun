@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 1316558974438033261}
   - component: {fileID: 1316558974438033260}
   - component: {fileID: 1316558974438033259}
+  - component: {fileID: 2845502556438634909}
+  - component: {fileID: 1149840881404903614}
   m_Layer: 0
   m_Name: Characters (5)_9
   m_TagString: Untagged
@@ -119,3 +121,30 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.19, y: 0.35}
   m_Direction: 0
+--- !u!114 &2845502556438634909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316558974438033258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15d14152470aa08488b66d45716d1952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direccion: {x: 0, y: 0, z: 0}
+  speedMovement: 1
+--- !u!114 &1149840881404903614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316558974438033258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d789ced95fe132c44b5653840122087a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zombie: {fileID: 1316558974438033258}

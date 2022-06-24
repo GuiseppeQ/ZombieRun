@@ -7,7 +7,7 @@ public class SpawnZom : MonoBehaviour
     public GameObject Prefab;
     public float TiempoDeCreacion = 2f, rangoDeCreacion = 2f; 
     private float cont;
-
+    
      void Start()
      {
         InvokeRepeating("Creando", 0.0f, TiempoDeCreacion);  

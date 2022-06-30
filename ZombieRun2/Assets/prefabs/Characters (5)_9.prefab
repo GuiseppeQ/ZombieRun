@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sangre: {fileID: 0}
-  cantidadCorazones: 3
+  cantidadCorazones: 0
 --- !u!50 &-3099505684157453483
 Rigidbody2D:
   serializedVersion: 4

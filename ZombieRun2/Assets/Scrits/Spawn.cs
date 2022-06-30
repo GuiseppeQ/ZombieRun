@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnZom : MonoBehaviour
+public class Spawn : MonoBehaviour
 {
     public GameObject Prefab;
     public float TiempoDeCreacion = 2f, rangoDeCreacion = 2f; 
@@ -10,17 +10,16 @@ public class SpawnZom : MonoBehaviour
     
      void Start()
      {
-        InvokeRepeating("Creando", 0.0f, TiempoDeCreacion);  
+        InvokeRepeating("Creando", 3f, TiempoDeCreacion);  
      }
 
     void Update()
     {
-        if (cont >= 2)
+        if (cont >= TiempoDeCreacion)
         {
             GameObject GO = Instantiate(Prefab, transform.position, transform.rotation);
             cont = 0;
         }
-
         cont += Time.deltaTime;
     }
      
